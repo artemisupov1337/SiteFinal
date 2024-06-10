@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="/code/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <title>Minimo - Contact us</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="main-navigation-bar wrapper-width-container">
+            <div class="main-navigation-bar__logo">
+                <a href="/code/index.html">MinimØ</a>
+            </div>
+            <nav class="main-menu">
+                <div class="container-burger" id="burger_menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul id="main-menu-mobile">
+                    <li><a href="/code/index.html">Lifestyle</a></li>
+                    <li><a href="">Photodiary</a></li>
+                    <li><a href="">Travel</a></li>
+                    <li><a href="/code/contactus.html">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="text-form">
+        <h1>Contact us</h1>
+    </div>
+    <div class="form">
+        <form id="contactForm" action="form.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name.." required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your E-mail.." required>
+
+            <label for="subject">Subject:</label>
+            <textarea id="subject" name="subject" placeholder="Write your questions.." style="height:200px" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="text-maps">
+        <h1>Find us on the Google Maps</h1>
+    </div>
+    <div class="maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1009404.3206670214!2d125.06969241245505!3d-8.787419632806504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2cfde50986e4a129%3A0x3e5c68387e85b3c!2z0JLQvtGB0YLQvtGH0L3Ri9C5INCi0LjQvNC-0YA!5e0!3m2!1sru!2sua!4v1718054610399!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <script src="/code/form.js"></script>
+    <footer class="main-footer">
+        <div class="wrapper-width-container">
+          <div class="blog-wrapper-width main-footer-content">
+            <div class="main-footer-pages">
+              <p>Terms and conditions</p>
+              <p>Privacy</p>        
+            </div>        
+            <div class="main-footer-social">
+              <p>Follow</p>
+              <a href="" class="icon-facebook"></a>
+              <a href="" class="icon-twitter"></a>
+              <a href="" class="icon-instagram"></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
